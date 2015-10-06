@@ -1,0 +1,50 @@
+/*
+Theme Name: The A Theme
+Version: 1.0
+Author: Doyle See
+Author URI: http://doylesee.com
+*/
+
+body {
+	background: #000;
+	color: #000;
+	font-family: 'Erica One', cursive;
+	font-size: 120px;
+	line-height: 100px;
+}
+#taste-js {
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;		 
+}
+#taste-js p {
+	-webkit-transform: skewY(-8deg); 
+	 -moz-transform: skewY(-8deg); 
+	  -ms-transform: skewY(-8deg); 
+	   -o-transform: skewY(-8deg); 
+		  transform: skewY(-8deg);
+}
+.fader {
+  -webkit-transition: color 3.0s linear;
+     -moz-transition: color 3.0s linear;
+       -o-transition: color 3.0s linear;
+          transition: color 3.0s linear;
+}
+.color-1 { color: #dc291e; }
+.color-2 { color: #ffa200; }
+.color-3 { color: #ffd600; }
+.color-4 { color: #8fd400; }
+.color-5 { color: #0091b5; }
+.color-6 { color: #673bb8; }
+.color-7 { color: #e62899; }
+
+@media only screen and (min-width : 480px) {
+}
+@media only screen and (min-width : 7108px) {
+}
+@media only screen and (min-width : 992px) {
+}
+@media only screen and (min-width : 1200px) {
+}
